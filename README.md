@@ -2,13 +2,11 @@
 
 ## 🔭 Introduction
 
+![](assets/media/City_Scale_Surface_Temperature.gif)
+
 ### Abstract
 
 Vertical greenery systems (VGS) have emerged as an effective approach for urban heat mitigation, energy savings, and carbon emission reduction. Traditional methods for quantifying cooling and energy-saving benefits of VGS cannot be scaled up to the city scale due to intensive computational demands, leaving a gap in city-scale assessment. Moreover, previous VGS simulations have exposed incompatibilities in spatial representations and computational units across different scales. In this paper, we develop a computational strategy including morphological clustering and GPU-accelerated numerical vectorization to enable city-scale VGS simulation within affordable computational time, along with a multi-scale consistent computational framework coordinating computations across different spatial scales. The simulation covers two types of VGS under both full and partial retrofitting scenarios, conducted over four representative days across the four seasons. Subsequently, we assess the cooling, energy-saving, and carbon reduction benefits, alongside the economic feasibility. The results reveal that citywide implementation of VGS in Wuhan can reduce average daytime air temperature by up to 0.25 °C, save 690.02–1279.88 GWh of energy annually, and avoid 0.45–0.77 MtCO₂ yr⁻¹ in carbon emissions, depending on the VGS type and retrofitting scenario. Such benefits involve substantial installation and operational costs, emphasizing a trade-off between environmental performance and economic feasibility. Our findings underscore the vast potential of VGS retrofitting, paving the way for translating such promising urban green infrastructure into actionable strategies.
-
-### Demonstration
-
-![City-scale VGS simulation demonstration](assets/media/City_Scale_Surface_Temperature.gif)
 
 ## 🔧 Installation
 
