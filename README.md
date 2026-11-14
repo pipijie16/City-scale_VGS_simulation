@@ -2,7 +2,7 @@
 
 ## 🔭 Introduction
 
-![](assets/media/City_Scale_Surface_Temperature.gif)
+![](media/City_Scale_Surface_Temperature.gif)
 
 ### Abstract
 
