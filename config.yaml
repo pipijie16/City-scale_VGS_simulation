@@ -1,0 +1,49 @@
+# 1. Paths & Inputs
+city_name: "Wuhan"    # City Name (Use '_' for spaces, e.g. Hong_Kong)
+shp: "E:/City-scale_VGS_simulation/Data/Wuhan_Building.shp"    # Building Shapefile (.shp)
+height_field: "height"    # Height Field Name
+building_typology_field: "type"    # Building Typology Field Name
+glazing_ratio_field: "glaz_ratio"    # Glazing Ratio Field Name
+epw_file: "E:/City-scale_VGS_simulation/Data/Wuhan.epw"    # Weather File (.epw)
+
+# 2. Environments
+general_interpreter: "C:/Python311/python.exe"    # General Python Interpreter (.exe)
+arcpy_interpreter: "C:/Program Files/ArcGIS/Pro/bin/Python/envs/arcgispro-py3/python.exe"    # ArcPy Interpreter (.exe)
+ladybug_path: "C:/Users/Administrator/ladybug_tools"    # Ladybug Folder Path
+
+# 3. Outputs
+intermediate_folder: "E:/City-scale_VGS_simulation/intermediate_folder"    # Intermediate Folder Path
+result_folder: "E:/City-scale_VGS_simulation/result_folder"    # Results Folder Path
+
+# 4. Performance Settings
+grid_size: "3.0"    # Grid Size on Facades (m)
+num_threads: "4"    # Number of Threads (Parallel)
+gpu_flag: True    # Enable GPU Acceleration
+
+# 5. Time Settings (MM-DD HH)
+start_dt: "07-23 00"    # Start Time
+end_dt: "07-23 23"    # End Time
+visualization_times: "07-23 14, 07-23 16-07-23 20"    # Visualization Hours
+
+# 6. ERA5 Settings
+era5_year: "2025"    # Year
+era5_time_zone: "Asia/Shanghai"    # Time Zone
+era5_bounding_box: "30.6,114.2,30.4,114.4"    # Bounding Box (N,W,S,E)
+utm_epsg: "32649"    # UTM EPSG Code
+
+# 7. Material Properties
+LAI: "3.0"    # Leaf Area Index (LAI)
+wall_absorptivity: "0.65"    # Wall Solar Absorptivity
+u_value: "2.0"    # U-value of the wall
+wall_thickness: "0.24"    # Wall Thickness (m)
+rho_of_wall: "2000"    # Density of Wall Material (kg/m³)
+c_pw: "1000"    # Specific Heat Capacity (J/kg·K)
+
+# 8. Simulation Options
+terrain_flag: True    # Include Terrain in Simulation
+terrain_path: "E:/City-scale_VGS_simulation/Data/Wuhan_DEM.tif"    # Terrain File(.tif)
+facade_types:    # Select Your Scenarios in Simulation
+  - "Green Facades"
+  - "Living Wall Systems"
+  - "Green Facades with glazing ratio"
+  - "Living Wall Systems with glazing ratio"
