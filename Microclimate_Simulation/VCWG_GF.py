@@ -114,7 +114,7 @@ error_written = False  # Flag to track if anything was written to error_txt
 
 # Define paths
 base_dir = os.path.join(intermediate_folder, f"microclimate_simulation/VCWG_{city}/")
-template_dir = os.path.join(microclimate_sim_dir, f"VCWGv2.0.0  for Green Facades/")
+template_dir = os.path.join(microclimate_sim_dir, f"VCWGv2.0.0 for Green Facades/")
 run_script_path = os.path.join(template_dir, 'Run_VCWGv2.0.0.py')
 
 vcwg_epw = os.path.join(template_dir, 'resources/epw/').replace('\\', '/')

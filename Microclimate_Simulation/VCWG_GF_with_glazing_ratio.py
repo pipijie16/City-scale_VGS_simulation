@@ -168,7 +168,7 @@ def run_with_glazing_ratio(type_value, glaz_ratio):
     global error_written
     # Define paths
     base_dir = os.path.join(intermediate_folder, f"microclimate_simulation/VCWG_{city}_with_glazing_ratio/VCWG_{city}_{type_value}/")
-    template_dir = os.path.join(microclimate_sim_dir, f"VCWGv2.0.0  for Green Facades with glazing ratio/")
+    template_dir = os.path.join(microclimate_sim_dir, f"VCWGv2.0.0 for Green Facades with glazing ratio/")
     run_script_path = os.path.join(template_dir, 'Run_VCWGv2.0.0.py')
 
     # Clear previous results

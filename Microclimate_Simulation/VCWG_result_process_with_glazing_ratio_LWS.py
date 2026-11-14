@@ -35,7 +35,7 @@ representative_points_file = os.path.join(intermediate_folder, f"{city}_basic_da
 itg_folder = os.path.join(intermediate_folder, "itg_folder/")
 os.makedirs(itg_folder, exist_ok=True)
 
-template_dir = os.path.join(microclimate_sim_dir, f"VCWGv2.0.0  for Living Wall Systems with glazing ratio/")
+template_dir = os.path.join(microclimate_sim_dir, f"VCWGv2.0.0 for Living Wall Systems with glazing ratio/")
 vcwg_epw = os.path.join(template_dir, 'resources/epw/').replace('\\', '/')
 
 if os.path.exists(vcwg_epw):
