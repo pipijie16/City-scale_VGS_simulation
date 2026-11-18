@@ -16,7 +16,7 @@ The following software must be installed before running the code:
 
 - **ArcGIS Pro** – Required for geospatial processing and morphological clustering through ArcPy.
 - **Rhinoceros 3D (Rhino 8)** – Required for 3D geometric modelling and visualization.
-- **Python 3.9 or above** – Required for running the Python scripts. Python 3.11 is the version used in the tested simulation environment.
+- **Python 3.9 or above** – The programming language used in this project.
 - **Ladybug Tools** – Required for solar irradiation simulation, grid discretization, and related workflows. Visit the [Ladybug Tools website](https://www.ladybug.tools/) for installation instructions.
 - **Radiance** – Required for solar irradiation calculation and view factor computation. The installation directory should be `C:/Radiance`.
 - **Accelerad** – Used for GPU-accelerated Radiance calculations. Please follow the instructions in the [Accelerad documentation](https://nljones.github.io/Accelerad/documentation.html) for installation and configuration.
